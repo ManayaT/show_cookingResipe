@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.grid-item {
+    text-align: center;
+}
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+.caption {
+    font-size: 16px;
+    margin-top: 10px;
+}
